@@ -1,0 +1,8 @@
+sloc)  92 Bytes
+n=int(input('enter number:'))
+i=1
+while n>0:
+     rem=n%10
+     n=n//10
+     i=i+1
+print(i)
